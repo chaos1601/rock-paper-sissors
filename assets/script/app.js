@@ -1,7 +1,11 @@
 'use strict';
 
-const choices = ["rock", "paper", "scissors"];
 const result = document.getElementById("result");
+const rock = document.getElementById("rock");
+const paper = document.getElementById("paper");
+const scissors = document.getElementById("scissors");
+const choices = ["rock", "paper", "scissors"];
+
 
 function computerChoice() {
   return choices[Math.floor(Math.random() * choices.length)];
@@ -23,6 +27,6 @@ function play(playerChoice) {
   }
 }
 
-document.getElementById("rock").addEventListener("click", () => play("rock"));
-document.getElementById("paper").addEventListener("click", () => play("paper"));
-document.getElementById("scissors").addEventListener("click", () => play("scissors"));
+rock.addEventListener("click", () => play("rock"));
+paper.addEventListener("click", () => play("paper"));
+scissors.addEventListener("click", () => play("scissors"));
