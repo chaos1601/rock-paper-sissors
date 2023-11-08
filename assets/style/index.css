@@ -62,6 +62,8 @@ button {
     margin: 10px;
     border-radius: 10px;
     padding: 5px;
+    cursor: pointer;
+    transition: all ease-in-out;
 }
 
 .result {
