@@ -53,8 +53,17 @@ body {
     min-height: 100vh;
 }
 ```
+Doing this will put the game into the center of the screen instead of it being stuck on top or on the side. It will make it look much better.
+From here, you will need to go with preferance with the color of the text, the margin between everything, and such. The only thing I will still add is
+that you need to make sure within the class within the container ```<div>```, that you make sure it is centered and width is correct as shown below.
+``` CSS
+.game {
+    width: 350px;
+    text-align: center;
+}
+```
 
-
+### JavaScript
 
 ### Demo
 Click ![here](https://chaos1601.github.io/rock-paper-sissors/) to see a demo.
