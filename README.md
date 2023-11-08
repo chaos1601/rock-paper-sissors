@@ -6,6 +6,7 @@ In this tutorial, I will show you how it is done.
 You first need to set up your HTML, CSS and JavaScript correctly which you should have enough knowleage to do so without me needing to explain. 
 Same goes for connecting CSS and JavaScript to HTML. 
 
+## HTML
 Some things you will need would be, a ```<div>``` with a class named "container", and within that ```<div>```, you have another ```<div>``` with a class
 to make sure the game is in the center of the screen as shown below.
 ``` HTML
@@ -20,5 +21,10 @@ to make sure the game is in the center of the screen as shown below.
     </div>
 </div>
 ```
+Note that the names of the classes for the buttons is not important, but you need to make sure you use the same classes throughout the code, 
+otherwise, it will never work. This should be obvious, but the code above, isn't everything that goes into the HTML file. This is just a part.
+
+
+
 ### Demo
 Click ![here](https://chaos1601.github.io/rock-paper-sissors/) to see a demo.
