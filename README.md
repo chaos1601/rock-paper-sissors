@@ -41,6 +41,20 @@ you can add a ```:root{}``` to set colors but it isn't needed. Here is the ```:r
     --app-blue: #3c57ff;
 }
 ```
+You can use the same, or use diffenrent ones. You can also add more if you would like, but not necessary. 
+
+The part that is most important to getting it centered is in the body. There are a few things that if you don't have them, it will never be centered.
+``` CSS
+body {
+    background-color: var(--app-colorful-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+```
+
+
 
 ### Demo
 Click ![here](https://chaos1601.github.io/rock-paper-sissors/) to see a demo.
