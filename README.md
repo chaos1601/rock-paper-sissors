@@ -6,7 +6,7 @@ In this tutorial, I will show you how it is done.
 You first need to set up your HTML, CSS and JavaScript correctly which you should have enough knowleage to do so without me needing to explain. 
 Same goes for connecting CSS and JavaScript to HTML. 
 
-Some things you will need would be, a ''<div>'' with a class named "container", and whthin that ''<div>'', you have another '''<div>''' with a class
+Some things you will need would be, a ```<div>``` with a class named "container", and whthin that ```<div>```, you have another ```<div>``` with a class
 to make sure the game is in the center of the screen. 
 
 ### Demo
