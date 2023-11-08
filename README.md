@@ -100,7 +100,14 @@ if (playerChoice === computer) {
     result.innerText = `Computer wins! Computer chose ${computer}.`;
   }
 ```
-
+Once you have this, you are almost done. The only thing you still need to do, is put in ```addEventListener()``` cause otherwise, how will the system 
+know what you pressed? You can add it like such at the bottom of the file.
+``` JavaScript
+rock.addEventListener("click", () => play("rock"));
+paper.addEventListener("click", () => play("paper"));
+scissors.addEventListener("click", () => play("scissors"));
+```
+If you have done everything properly, this should work. If it doesn't, then check your code if you maybe misspelled something or so.
 
 
 ### Demo
