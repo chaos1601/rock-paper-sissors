@@ -13,6 +13,7 @@
 :root {
     --app-dark-bg: #181818;
     --app-colorful-bg: #fd5c5c;
+    --app-button-bg: #28fa59;
     --app-white: #fff;
     --app-grey: #6b6b6b;
     --app-red: #ff3c57;
@@ -42,6 +43,7 @@ body {
 }
 
 h1 {
+    width: 100px;
     margin: 0 0 20px 0;
     color: var(--app-white);
 }
@@ -53,6 +55,7 @@ p {
 }
 
 button {
+    background-color: var(--app-button-bg);
     margin: 0 0 20px 0;
     font-size: 16px;
     margin: 10px;
