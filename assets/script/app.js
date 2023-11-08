@@ -16,15 +16,15 @@ function play(playerChoice) {
   const computer = computerChoice();
 
   if (playerChoice === computer) {
-    result.textContent = "It's a tie!";
+    result.innerText = "It's a tie!";
   } else if (
     (playerChoice === "rock" && computer === "scissors") ||
     (playerChoice === "paper" && computer === "rock") ||
     (playerChoice === "scissors" && computer === "paper")
   ) {
-    result.textContent = `You win! Computer chose ${computer}.`;
+    result.innerText = `You win! Computer chose ${computer}.`;
   } else {
-    result.textContent = `Computer wins! Computer chose ${computer}.`;
+    result.innerText = `Computer wins! Computer chose ${computer}.`;
   }
 }
 
