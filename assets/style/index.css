@@ -61,7 +61,7 @@ button {
     font-size: 16px;
     margin: 10px;
     border-radius: 10px;
-    padding: 5px;
+    padding: 5px 10px;
     cursor: pointer;
     transition: all ease-in-out;
 }
