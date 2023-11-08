@@ -64,6 +64,44 @@ that you need to make sure within the class within the container ```<div>```, th
 ```
 
 ### JavaScript
+Once you have you JavaScript file ready (aka you have ```'use strict'```), then we can start here. First, you need to connect your JavaScript with HTML
+by doing the following:
+``` JavaScript
+const rock = document.querySelector(".rock");
+const paper = document.querySelector(".paper");
+const scissors = document.querySelector(".scissors");
+const result = document.querySelector(".result");
+```
+Now that the JavaScript file is connected with the HTML file, we can start here. So first we need to create functions for the computer and the player.
+These functions are just made so we can call them later without making the code look ugly. An example you could use below.
+``` JavaScript
+const choices = ["rock", "paper", "scissors"];
+
+function computerChoice() {
+  return choices[Math.floor(Math.random() * choices.length)];
+}
+
+function play(playerChoice) {
+  const computer = computerChoice();
+
+```
+I use ```Math.random()``` here to get the computer to choose between the three options given. Now we have to tell the system what tp print when the player
+has chosen an option. We can use an ```ifelse()``` statment as shown below.
+``` JavaScript
+if (playerChoice === computer) {
+    result.innerText = "It's a tie!";
+  } else if (
+    (playerChoice === "rock" && computer === "scissors") ||
+    (playerChoice === "paper" && computer === "rock") ||
+    (playerChoice === "scissors" && computer === "paper")
+  ) {
+    result.innerText = `You win! Computer chose ${computer}.`;
+  } else {
+    result.innerText = `Computer wins! Computer chose ${computer}.`;
+  }
+```
+
+
 
 ### Demo
 Click ![here](https://chaos1601.github.io/rock-paper-sissors/) to see a demo.
