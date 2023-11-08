@@ -1,9 +1,9 @@
 'use strict';
 
-const result = document.querySelector(".result");
 const rock = document.querySelector(".rock");
 const paper = document.querySelector(".paper");
 const scissors = document.querySelector(".scissors");
+const result = document.querySelector(".result");
 
 
 const choices = ["rock", "paper", "scissors"];
