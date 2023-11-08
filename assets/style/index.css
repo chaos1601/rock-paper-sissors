@@ -49,6 +49,6 @@ button {
     padding: 5px;
 }
 
-#result {
+.result {
     color: var(--app-white);
 }

@@ -1,11 +1,12 @@
 'use strict';
 
-const result = document.getElementById("result");
-const rock = document.getElementById("rock");
-const paper = document.getElementById("paper");
-const scissors = document.getElementById("scissors");
-const choices = ["rock", "paper", "scissors"];
+const result = document.querySelector(".result");
+const rock = document.querySelector(".rock");
+const paper = document.querySelector(".paper");
+const scissors = document.querySelector(".scissors");
 
+
+const choices = ["rock", "paper", "scissors"];
 
 function computerChoice() {
   return choices[Math.floor(Math.random() * choices.length)];
