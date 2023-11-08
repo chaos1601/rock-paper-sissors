@@ -10,15 +10,15 @@ Some things you will need would be, a ```<div>``` with a class named "container"
 to make sure the game is in the center of the screen as shown below.
 ``` HTML
 <div class="container">
-                <div class="game">
-                    <h1>Rock, Paper, Scissors</h1>
-                    <p>Choose your move:</p>
-                    <button class="rock">Rock</button>
-                    <button class="paper">Paper</button>
-                    <button class="scissors">Scissors</button>
-                    <p class="result"></p>
-                </div>
-            </div>
+  <div class="game">
+    <h1>Rock, Paper, Scissors</h1>
+    <p>Choose your move:</p>
+    <button class="rock">Rock</button>
+    <button class="paper">Paper</button>
+    <button class="scissors">Scissors</button>
+    <p class="result"></p>
+    </div>
+</div>
 ```
 ### Demo
 Click ![here](https://chaos1601.github.io/rock-paper-sissors/) to see a demo.
